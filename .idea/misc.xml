@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/diksh/AndroidStudioProjects/AmazonApplication/app/src/main/res/drawable/cart_layout_bg.xml" value="0.1" />
+        <entry key="..\:/Users/diksh/AndroidStudioProjects/AmazonApplication/app/src/main/res/drawable/edit_text_outline.xml" value="0.1605" />
+        <entry key="..\:/Users/diksh/AndroidStudioProjects/AmazonApplication/app/src/main/res/drawable/grey_bg.xml" value="0.1605" />
+        <entry key="..\:/Users/diksh/AndroidStudioProjects/AmazonApplication/app/src/main/res/drawable/linear_layout_bg.xml" value="0.1" />
+        <entry key="..\:/Users/diksh/AndroidStudioProjects/AmazonApplication/app/src/main/res/drawable/profile_shape.xml" value="0.1" />
+        <entry key="..\:/Users/diksh/AndroidStudioProjects/AmazonApplication/app/src/main/res/drawable/search_outline.xml" value="0.1" />
+        <entry key="..\:/Users/diksh/AndroidStudioProjects/AmazonApplication/app/src/main/res/drawable/shape_dialog.xml" value="0.1" />
+        <entry key="..\:/Users/diksh/AndroidStudioProjects/AmazonApplication/app/src/main/res/drawable/shape_no_button.xml" value="0.1" />
+        <entry key="..\:/Users/diksh/AndroidStudioProjects/AmazonApplication/app/src/main/res/drawable/shape_yes_button.xml" value="0.1" />
+        <entry key="..\:/Users/diksh/AndroidStudioProjects/AmazonApplication/app/src/main/res/drawable/tool_bar_color.xml" value="0.1605" />
+        <entry key="..\:/Users/diksh/AndroidStudioProjects/AmazonApplication/app/src/main/res/drawable/yellow_bg.xml" value="0.1605" />
+        <entry key="..\:/Users/diksh/AndroidStudioProjects/AmazonApplication/app/src/main/res/layout/activity_add.xml" value="0.2" />
+        <entry key="..\:/Users/diksh/AndroidStudioProjects/AmazonApplication/app/src/main/res/layout/activity_cart.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/diksh/AndroidStudioProjects/AmazonApplication/app/src/main/res/layout/activity_cart2.xml" value="0.2504528985507246" />
+        <entry key="..\:/Users/diksh/AndroidStudioProjects/AmazonApplication/app/src/main/res/layout/activity_home.xml" value="0.1" />
+        <entry key="..\:/Users/diksh/AndroidStudioProjects/AmazonApplication/app/src/main/res/layout/activity_intro.xml" value="0.2504528985507246" />
+        <entry key="..\:/Users/diksh/AndroidStudioProjects/AmazonApplication/app/src/main/res/layout/activity_login.xml" value="0.176" />
+        <entry key="..\:/Users/diksh/AndroidStudioProjects/AmazonApplication/app/src/main/res/layout/activity_my_cart.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/diksh/AndroidStudioProjects/AmazonApplication/app/src/main/res/layout/activity_my_cart_bag.xml" value="0.264" />
+        <entry key="..\:/Users/diksh/AndroidStudioProjects/AmazonApplication/app/src/main/res/layout/activity_place_order.xml" value="0.264" />
+        <entry key="..\:/Users/diksh/AndroidStudioProjects/AmazonApplication/app/src/main/res/layout/activity_product_adapter.xml" value="0.1" />
+        <entry key="..\:/Users/diksh/AndroidStudioProjects/AmazonApplication/app/src/main/res/layout/activity_product_details.xml" value="0.264" />
+        <entry key="..\:/Users/diksh/AndroidStudioProjects/AmazonApplication/app/src/main/res/layout/activity_profile.xml" value="0.2" />
+        <entry key="..\:/Users/diksh/AndroidStudioProjects/AmazonApplication/app/src/main/res/layout/activity_registration.xml" value="0.2" />
+        <entry key="..\:/Users/diksh/AndroidStudioProjects/AmazonApplication/app/src/main/res/layout/activity_search.xml" value="0.13537117903930132" />
+        <entry key="..\:/Users/diksh/AndroidStudioProjects/AmazonApplication/app/src/main/res/layout/activity_show_history.xml" value="0.17654508611955422" />
+        <entry key="..\:/Users/diksh/AndroidStudioProjects/AmazonApplication/app/src/main/res/layout/activity_splash.xml" value="0.136" />
+        <entry key="..\:/Users/diksh/AndroidStudioProjects/AmazonApplication/app/src/main/res/layout/cart_items_recycler_data.xml" value="0.264" />
+        <entry key="..\:/Users/diksh/AndroidStudioProjects/AmazonApplication/app/src/main/res/layout/dialog_layout.xml" value="0.4" />
+        <entry key="..\:/Users/diksh/AndroidStudioProjects/AmazonApplication/app/src/main/res/layout/order_history_recyler_data.xml" value="0.264" />
+        <entry key="..\:/Users/diksh/AndroidStudioProjects/AmazonApplication/app/src/main/res/layout/related_product_recycler_data.xml" value="0.1037037037037037" />
+        <entry key="..\:/Users/diksh/AndroidStudioProjects/AmazonApplication/app/src/main/res/layout/slider_view.xml" value="0.24139492753623187" />
+        <entry key="..\:/Users/diksh/AndroidStudioProjects/AmazonApplication/app/src/main/res/layout/view_search_recyclerview_data.xml" value="0.1" />
+        <entry key="..\:/Users/diksh/AndroidStudioProjects/AmazonApplication/app/src/main/res/menu/menu_nav.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

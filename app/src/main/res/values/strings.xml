@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">AmazonApplication</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+    <string name="unit_price_of_the_product_in">Unit Price of the Product (in ₹)</string>
+    <string name="description_of_the_product">Description of the product</string>
+    <string name="category_of_the_product_eg_smartphone_shoes_etc">Category of the product (eg: smartphone, shoes,etc.)</string>
+    <string name="confirm">Confirm</string>
+    <string name="amazon">Amazon</string>
+    <string name="nike_air_max_n_outdoor_shoe">Nike Air Max\n Outdoor Shoe</string>
+    <string name="_7037">₹7037</string>
+    <string name="nike_air_max_n_running_shoe">Nike Air Max\n Running Shoe</string>
+    <string name="_5108">₹5108</string>
+</resources>
