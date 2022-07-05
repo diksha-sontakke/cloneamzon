@@ -37,6 +37,12 @@
         <entry key="..\:/Users/diksh/AndroidStudioProjects/AmazonApplication/app/src/main/res/layout/slider_view.xml" value="0.24139492753623187" />
         <entry key="..\:/Users/diksh/AndroidStudioProjects/AmazonApplication/app/src/main/res/layout/view_search_recyclerview_data.xml" value="0.1" />
         <entry key="..\:/Users/diksh/AndroidStudioProjects/AmazonApplication/app/src/main/res/menu/menu_nav.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/diksh/AndroidStudioProjects/CloneAmazonApplication/app/src/main/res/drawable/edit_text_outline.xml" value="0.218" />
+        <entry key="..\:/Users/diksh/AndroidStudioProjects/CloneAmazonApplication/app/src/main/res/drawable/quantity_outline.xml" value="0.218" />
+        <entry key="..\:/Users/diksh/AndroidStudioProjects/CloneAmazonApplication/app/src/main/res/drawable/search_outline.xml" value="0.218" />
+        <entry key="..\:/Users/diksh/AndroidStudioProjects/CloneAmazonApplication/app/src/main/res/layout/activity_home.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/diksh/AndroidStudioProjects/CloneAmazonApplication/app/src/main/res/layout/activity_product_details.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/diksh/AndroidStudioProjects/CloneAmazonApplication/app/src/main/res/layout/cart_items_recycler_data.xml" value="0.25416666666666665" />
       </map>
     </option>
   </component>

@@ -126,7 +126,7 @@ public class RegistrationActivity extends AppCompatActivity {
                                         .child(auth.getCurrentUser().getUid());
 
                                 //link of default picture
-                                imgUri="https://firebasestorage.googleapis.com/v0/b/applicationclone-e91a7.appspot.com/o/profilepic.png?alt=media&token=dde8245a-fcf7-4bbf-96fc-714a10ddff73";
+                                imgUri="https://firebasestorage.googleapis.com/v0/b/fir-8e59b.appspot.com/o/profilepic.png?alt=media&token=28827f41-559d-40b0-b7e9-2fbb6bbe447c";
 
 
                                 //create a new model class for users
