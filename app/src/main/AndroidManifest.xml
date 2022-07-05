@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.amazonapplication">
+    package="com.example.cloneamazonapplication">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -12,31 +12,31 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AmazonApplication">
         <activity
-            android:name=".View.ShowHistoryActivity"
+            android:name="com.example.cloneamazonapplication.View.ShowHistoryActivity"
             android:exported="false" />
         <activity
-            android:name=".View.PlaceOrderActivity"
+            android:name="com.example.cloneamazonapplication.View.PlaceOrderActivity"
             android:exported="false" />
         <activity
-            android:name=".View.MyCartBagActivity"
+            android:name="com.example.cloneamazonapplication.View.MyCartBagActivity"
             android:exported="false" />
         <activity
-            android:name=".View.AddActivity"
+            android:name="com.example.cloneamazonapplication.View.AddActivity"
             android:exported="false" />
         <activity
-            android:name=".View.ProfileActivity"
+            android:name="com.example.cloneamazonapplication.View.ProfileActivity"
             android:exported="false" />
         <activity
-            android:name=".View.IntroActivity"
+            android:name="com.example.cloneamazonapplication.View.IntroActivity"
             android:exported="false" />
         <activity
-            android:name=".accountcreation.RegistrationActivity"
+            android:name="com.example.cloneamazonapplication.accountcreation.RegistrationActivity"
             android:exported="false" />
         <activity
-            android:name=".accountcreation.LoginActivity"
+            android:name="com.example.cloneamazonapplication.accountcreation.LoginActivity"
             android:exported="false" />
         <activity
-            android:name=".View.SplashActivity"
+            android:name="com.example.cloneamazonapplication.View.SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -45,13 +45,13 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".View.SearchActivity"
+            android:name="com.example.cloneamazonapplication.View.SearchActivity"
             android:exported="false" />
         <activity
-            android:name=".View.ProductDetailsActivity"
+            android:name="com.example.cloneamazonapplication.View.ProductDetailsActivity"
             android:exported="false" />
         <activity
-            android:name=".View.HomeActivity"
+            android:name="com.example.cloneamazonapplication.View.HomeActivity"
             android:exported="false" />
     </application>
 
