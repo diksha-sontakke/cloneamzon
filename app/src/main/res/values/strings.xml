@@ -11,4 +11,17 @@
     <string name="_7037">₹7037</string>
     <string name="nike_air_max_n_running_shoe">Nike Air Max\n Running Shoe</string>
     <string name="_5108">₹5108</string>
+
+
+    <!-- for spinner -->
+
+    <string-array name="quantity_string_array">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5(Max)</item>
+    </string-array>
+
+
 </resources>

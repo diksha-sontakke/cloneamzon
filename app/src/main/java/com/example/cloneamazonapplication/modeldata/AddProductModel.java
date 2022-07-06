@@ -10,11 +10,12 @@ public class AddProductModel {
     String img;
     String date;
     String time;
+    String quantity;  //dont add this
 
     public AddProductModel() {
     }
 
-    public AddProductModel(String pid, String name, String price, String description, String category, String img, String date, String time) {
+    public AddProductModel(String pid, String name, String price, String description, String category, String img, String date, String time,String quantity) {
         this.pid = pid;
         this.name = name;
         this.price = price;
@@ -23,6 +24,8 @@ public class AddProductModel {
         this.img = img;
         this.date = date;
         this.time = time;
+        this.quantity=quantity;
+
     }
 
     public String getPid() {
@@ -87,5 +90,13 @@ public class AddProductModel {
 
     public void setTime(String time) {
         this.time = time;
+    }
+
+    public String getQuantity() {
+        return quantity;
+    }
+
+    public void setQuantity(String quantity) {
+        this.quantity = quantity;
     }
 }

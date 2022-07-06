@@ -40,9 +40,14 @@
         <entry key="..\:/Users/diksh/AndroidStudioProjects/CloneAmazonApplication/app/src/main/res/drawable/edit_text_outline.xml" value="0.218" />
         <entry key="..\:/Users/diksh/AndroidStudioProjects/CloneAmazonApplication/app/src/main/res/drawable/quantity_outline.xml" value="0.218" />
         <entry key="..\:/Users/diksh/AndroidStudioProjects/CloneAmazonApplication/app/src/main/res/drawable/search_outline.xml" value="0.218" />
+        <entry key="..\:/Users/diksh/AndroidStudioProjects/CloneAmazonApplication/app/src/main/res/layout/activity_add.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/diksh/AndroidStudioProjects/CloneAmazonApplication/app/src/main/res/layout/activity_home.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/diksh/AndroidStudioProjects/CloneAmazonApplication/app/src/main/res/layout/activity_my_cart_bag.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/diksh/AndroidStudioProjects/CloneAmazonApplication/app/src/main/res/layout/activity_place_order.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/diksh/AndroidStudioProjects/CloneAmazonApplication/app/src/main/res/layout/activity_product_details.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/diksh/AndroidStudioProjects/CloneAmazonApplication/app/src/main/res/layout/activity_show_history.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/diksh/AndroidStudioProjects/CloneAmazonApplication/app/src/main/res/layout/cart_items_recycler_data.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/diksh/AndroidStudioProjects/CloneAmazonApplication/app/src/main/res/layout/order_history_recyler_data.xml" value="0.25416666666666665" />
       </map>
     </option>
   </component>

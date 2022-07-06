@@ -2,15 +2,16 @@ package com.example.cloneamazonapplication.modeldata;
 
 public class Orders {
 
-    private String name, city, address, phone, date, totalAmount;
+    private String name, city, address, phone, date, totalAmount,quantity;
     public Orders(){}
-    public Orders(String name, String city, String address, String phone, String date, String totalAmount){
+    public Orders(String name, String city, String address, String phone, String date, String totalAmount,String quantity){
         this.name=name;
         this.city=city;
         this.address=address;
         this.phone=phone;
         this.date=date;
         this.totalAmount=totalAmount;
+        this.quantity=quantity;
     }
     public String getDate() {
         return date;
@@ -52,5 +53,13 @@ public class Orders {
     }
     public void setTotalAmount(String totalAmount) {
         this.totalAmount = totalAmount;
+    }
+
+    public String getQuantity() {
+        return quantity;
+    }
+
+    public void setQuantity(String quantity) {
+        this.quantity = quantity;
     }
 }

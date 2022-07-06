@@ -10,7 +10,7 @@ public class Product {
     private BigDecimal pPrice;
     private String pDescription;
 
-  //  private int pQuantity;
+     private String pQuantity;
 
 
     private String pImageName;
@@ -18,12 +18,13 @@ public class Product {
 
 
     //in constant package 3 related problem
-    public Product(int pId, String pName, BigDecimal pPrice, String pDescription,  String pImageName) {
+    public Product(int pId, String pName, BigDecimal pPrice, String pDescription,String pQuantity,  String pImageName) {
         this.pId = pId;
         this.pName = pName;
         this.pPrice = pPrice;
         this.pDescription = pDescription;
         this.pImageName = pImageName;
+        this.pQuantity=pQuantity;
 
 
     }
@@ -69,5 +70,13 @@ public class Product {
 
     public void setpImageName(String pImageName) {
         this.pImageName = pImageName;
+    }
+
+    public String getpQuantity() {
+        return pQuantity;
+    }
+
+    public void setpQuantity(String pQuantity) {
+        this.pQuantity = pQuantity;
     }
 }

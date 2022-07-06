@@ -277,6 +277,7 @@ public class HomeActivity extends AppCompatActivity {
                         .getpPrice().setScale(0, BigDecimal.ROUND_HALF_UP)));
                // intent.putExtra("quantity", product.getpQuantity());
                 intent.putExtra("imageName", product.getpImageName());
+                intent.putExtra("quantity", product.getpQuantity());
 
                 //
                 Log.d("TAG", "View product: " + product.getpName());
@@ -302,11 +303,11 @@ public class HomeActivity extends AppCompatActivity {
         //we gonna give space in xml abd then replace it with \n with this close
        // String name=evenShoeName.getText().toString().replaceAll("\n"," ");
 
-        String name="Samsung Galaxy F42";
+        String name="Nike Air Max Running Shoe";
         final HashMap<String, Object> prodMap = new HashMap<>();
         prodMap.put("pid",name );
         prodMap.put("name", name);
-        prodMap.put("price", "₹17899");
+        prodMap.put("price", "₹7037");
         prodMap.put("category", "SmartPhone");
         prodMap.put("description","6 GB RAM\n128 GB ROM\nExpandable Upto 1 TB");
 

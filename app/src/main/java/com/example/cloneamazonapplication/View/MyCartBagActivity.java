@@ -4,6 +4,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.AppCompatButton;
+import androidx.databinding.DataBindingUtil;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -18,6 +19,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.cloneamazonapplication.R;
+import com.example.cloneamazonapplication.databinding.CartItemsRecyclerDataBinding;
+import com.example.cloneamazonapplication.interfaces.CartQuantityInterface;
 import com.example.cloneamazonapplication.modeldata.Cart;
 import com.example.cloneamazonapplication.viewholder.CartViewHolder;
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
@@ -38,8 +41,10 @@ public class MyCartBagActivity extends AppCompatActivity {
     TextView totalPrice;
     private int overallPrice=0;
 
+    CartItemsRecyclerDataBinding cartItemsRecyclerDataBinding;
 
     FirebaseAuth auth;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -54,6 +59,9 @@ public class MyCartBagActivity extends AppCompatActivity {
         recyclerView.setLayoutManager(layoutManager);
         nextBtn=findViewById(R.id.next_button);
         totalPrice=findViewById(R.id.totalprice);
+
+
+
 
         menuMethod();
         nextButton();
@@ -125,6 +133,12 @@ public class MyCartBagActivity extends AppCompatActivity {
 
     }
 
+    private void spinnerQuanatity(){
+
+
+
+
+    }
 
     @Override
     protected void onStart() {
@@ -145,12 +159,20 @@ public class MyCartBagActivity extends AppCompatActivity {
                     public CartViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
                         View view= LayoutInflater.from(parent.getContext()).inflate(R.layout.cart_items_recycler_data,parent,false);
                         CartViewHolder holder=new CartViewHolder(view);
+
+                       // DataBindingUtil.setContentView(MyCartBagActivity.this, R.layout.cart_items_recycler_data);
+
+
                         return holder;
                     }
 
 
                     @Override
                     protected void onBindViewHolder(@NonNull CartViewHolder holder, int position, @NonNull Cart model) {
+
+
+
+
                         String name=model.getName().replaceAll("\n"," ");
                         holder.cartProductName.setText(name);
                         holder.cartProductPrice.setText(model.getPrice());

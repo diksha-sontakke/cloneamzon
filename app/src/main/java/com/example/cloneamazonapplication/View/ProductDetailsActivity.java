@@ -11,12 +11,18 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.ImageView;
+import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.cloneamazonapplication.R;
+import com.example.cloneamazonapplication.databinding.ActivityProductDetailsBinding;
+import com.example.cloneamazonapplication.interfaces.CartQuantityInterface;
 import com.example.cloneamazonapplication.modeldata.AddProductModel;
+import com.example.cloneamazonapplication.modeldata.Cart;
 import com.example.cloneamazonapplication.viewholder.RelatedProductHolder;
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.firebase.ui.database.FirebaseRecyclerOptions;
@@ -30,6 +36,7 @@ import com.squareup.picasso.Picasso;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.HashMap;
+import java.util.List;
 
 public class ProductDetailsActivity extends AppCompatActivity {
 
@@ -46,6 +53,16 @@ public class ProductDetailsActivity extends AppCompatActivity {
     RecyclerView related_prod_list;
     String relCategory;
     String name;
+
+    Spinner spinner;
+
+    ActivityProductDetailsBinding activityProductDetailsBinding;
+
+    CartQuantityInterface cartQuantityInterface;
+
+
+
+
 
 
     @Override
@@ -69,11 +86,14 @@ public class ProductDetailsActivity extends AppCompatActivity {
 
 
 
-        //might create error
-        related_prod_list = findViewById(R.id.related_prod_list);
-        //this line might create error
-        related_prod_list.setLayoutManager(new LinearLayoutManager(ProductDetailsActivity.this,
-                LinearLayoutManager.HORIZONTAL,true));
+
+        ArrayAdapter adapter=new ArrayAdapter(this,  android.R.layout.simple_spinner_item);
+        adapter.setDropDownViewResource( android.R.layout
+                .simple_spinner_dropdown_item);
+        spinner.setAdapter(adapter);
+
+
+
 
         detailProduct();
 
@@ -82,15 +102,40 @@ public class ProductDetailsActivity extends AppCompatActivity {
         onStart();
 
 
+
+
     }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     private void detailProduct(){
-
-
-
-
-
         intent=getIntent();
 
         productCategory.setText(intent.getStringExtra("category"));
@@ -264,4 +309,6 @@ public class ProductDetailsActivity extends AppCompatActivity {
 
 
     }
+
+
 }
